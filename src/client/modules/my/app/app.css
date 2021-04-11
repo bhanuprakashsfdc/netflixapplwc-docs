@@ -1,0 +1,275 @@
+html{
+		background-color:black !important;
+}
+
+.body, html { 
+    height: 100%; 
+    margin: 0; 
+		font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+		color:white;
+		background-color: black;
+		font-size: 16px;
+} 
+* {
+		box-sizing: border-box;
+}
+
+.bg1{
+		background: linear-gradient(to right, rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.05)),url("https://assets.nflxext.com/ffe/siteui/vlv3/92bb3a0b-7e91-40a0-b27b-f2c3ac9ef6e4/aed392db-5550-48d8-9f4e-1f1218b7add2/IN-en-20210322-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+		height: 120vh;
+}
+
+nav img{
+		width:167px;
+		height:45px;
+		vertical-align: middle;
+}
+nav a.logo{
+		display:inline-block;
+		line-height:90px;
+		margin-left:3%;
+}
+
+header nav{
+		height:90px;
+}
+
+nav .signin{
+		color: #fff;
+		float: right;
+		background-color: #e50914;
+		line-height: normal;
+		margin-top: 18px;
+		margin-right:3%;
+		padding: 7px 17px;
+		font-weight: 400;
+		border-radius: 3px;
+		font-size: 16px;
+		text-decoration: none;
+}
+
+nav .language {
+		color: #fff;
+		float: right;
+		background-color: black;
+		line-height: normal;
+		margin-top: 18px;
+		margin-right:3%;
+		padding: 7px 17px;
+		font-weight: 400;
+		border-radius: 3px;
+		font-size: 16px;
+		text-decoration: none;
+		border: 1px solid white;
+}
+
+.pitch{
+		margin:0 3%;
+		position:absolute;
+		top:35%;
+		font-size: 1.8vw;
+		text-align:center;
+		padding: 0 240px;
+}
+
+.pitch_title {
+  font-size:3em;
+	margin: 0 0 0.2em;
+		font-weight:700;
+}
+.pitch_subtitle {
+	margin: 0 0 0.5em;	
+}
+
+.pitch_subtitle1 {
+	margin: 0 0 0.5em;
+	font-size:1.625rem;
+}
+
+div .container {
+  display: table;
+  width: 400px;  
+  margin: 50px auto 0;
+}
+div.container div.cell {
+  display: table-cell;
+}
+div.container div.cell:last-child {
+  /* Makes sure this cell is only wide enough
+     for the button label. */
+  width: 1px;
+}
+
+input[type=search], div.button {  
+  width: 100%;
+  height: 35px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;  
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input[type=search] {
+  margin: 0;
+  padding: 0 10px;  
+  background-color: #f8f8f8;  
+  border: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+	height: 60px;
+  width: 350px;
+}
+
+div.button {
+  line-height: 60px;
+  margin: 0;
+  padding: 0 20px;
+  color: #fff;
+  background-color: #FF1717;
+  font-weight: bold;
+  white-space: nowrap;
+  border-radius: 6px;
+  height: 60px;
+  width: 200px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 0px 75px;
+  height: 500px; 
+	background-color: black;		
+	display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.fullwidth{
+		width: 100%;
+		padding: 0px 75px;
+		height: 500px; 
+		background-color: black;	
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px solid #000000;
+  z-index: 3;
+}
+
+.image2 {
+  position: absolute;
+    top: 110px;
+    left: 95px;
+  border: 1px solid #000000;
+}
+
+.imagewatch {
+		position: absolute;
+		top: 85px;
+		left: 169px;
+		width: 316px;
+}
+
+.loading{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.loadingbox {
+		border: 1px solid #ea0e0e;
+    width: 402px;
+    height: 100px;
+    margin: 0 80px 0 80px;
+    border-radius: 10px;
+		z-index: 3;
+		top: 365px; 
+		background-color: black; 
+		left: 60px;
+}
+
+
+.faq-tile{
+		text-align: center;
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+		font-weight: 700;
+}
+
+/* Faq styling */
+ul {  
+list-style-type: none;  
+font-weight: bold;  
+font-size: 20px;  
+} 
+.faq {
+		padding: 0 200px;
+		background-color: black;
+}
+.faq-list-item {
+		list-style-position:inside;
+		border: 1px solid black;
+		padding: 3px 0px;
+}
+
+.faq-question {
+		background-color:#303030;
+		width: 800px;
+		height: 70px;
+		text-align: left;
+		padding: .8em 2.2em .8em 1.2em;
+		margin-bottom: 1px;
+		font-weight: 400;
+		position: relative;
+		font-size: 23px;
+}
+.faq-tile{
+		background-color:black;
+}
+
+.plus-icon {
+		height: 30px;
+    float: right;
+}
+
+.footer{
+		height: 200px;
+		width:100%;
+		color:white;
+		top: 1458px;
+    position: relative;
+		background-color:black;
+}
+
+.grid-column {
+		float: left;
+		width: 25%;
+		padding: 0px 30px;
+		height: 200px; 		
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		position: relative;
+	  top: -1001px;
+		background-color: black;
+}
+
+.grid-row{
+		padding: 0px 150px;
+}
+
+li{
+		font-size: 13px;
+}
+a{
+	 color: white;	
+}
